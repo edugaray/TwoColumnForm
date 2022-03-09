@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto';
+}
+input:invalid {
+  border: 2px dashed red;
+}
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #30A8E0;
+    border-radius: 10px;;
+}
+.sub-container {
+    margin: 20px;
+    flex-grow: 1;
+}
+.form-input {
+    display: block;
+    margin: 1%;
+    width: 90%;
+    height: 40px;
+}
+.submit-button {
+    margin: 20px;
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(34, 117, 190);
+}
+
+@media screen and (min-width: 768px) {
+  .container { 
+    display: flex;  
+    height: auto; 
+}
+.sub-container {
+    width: 50%;
+}
+}
